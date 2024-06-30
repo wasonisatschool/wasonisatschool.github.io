@@ -1,0 +1,17 @@
+.g-dropdown {
+    display: none;
+  }
+  
+  .g-dropdown.g-active {
+    display: block;
+  }
+  
+  .g-dropdown .g-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .g-dropdown .g-block {
+    margin-bottom: 10px;
+  }
+  

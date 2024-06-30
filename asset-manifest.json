@@ -1,13 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.68449c1b.css",
-    "main.js": "/static/js/main.c5ac00d7.js",
+    "main.css": "/static/css/main.a31a9c82.css",
+    "main.js": "/static/js/main.28295376.js",
     "index.html": "/index.html",
-    "main.68449c1b.css.map": "/static/css/main.68449c1b.css.map",
-    "main.c5ac00d7.js.map": "/static/js/main.c5ac00d7.js.map"
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.62a5a273b7b76bff688c.ttf",
+    "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.62a5a273b7b76bff688c.woff",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.62a5a273b7b76bff688c.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.62a5a273b7b76bff688c.ttf",
+    "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.62a5a273b7b76bff688c.woff",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.62a5a273b7b76bff688c.woff2",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.62a5a273b7b76bff688c.ttf",
+    "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.62a5a273b7b76bff688c.woff",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.62a5a273b7b76bff688c.woff2",
+    "static/media/raleway-black-webfont.ttf": "/static/media/raleway-black-webfont.62a5a273b7b76bff688c.ttf",
+    "static/media/raleway-black-webfont.woff": "/static/media/raleway-black-webfont.62a5a273b7b76bff688c.woff",
+    "static/media/raleway-black-webfont.woff2": "/static/media/raleway-black-webfont.62a5a273b7b76bff688c.woff2",
+    "static/media/raleway-bold-webfont.ttf": "/static/media/raleway-bold-webfont.62a5a273b7b76bff688c.ttf",
+    "static/media/raleway-bold-webfont.woff": "/static/media/raleway-bold-webfont.62a5a273b7b76bff688c.woff",
+    "static/media/raleway-bold-webfont.woff2": "/static/media/raleway-bold-webfont.62a5a273b7b76bff688c.woff2",
+    "static/media/raleway-regular-webfont.ttf": "/static/media/raleway-regular-webfont.62a5a273b7b76bff688c.ttf",
+    "static/media/raleway-regular-webfont.woff": "/static/media/raleway-regular-webfont.62a5a273b7b76bff688c.woff",
+    "static/media/raleway-regular-webfont.woff2": "/static/media/raleway-regular-webfont.62a5a273b7b76bff688c.woff2",
+    "main.a31a9c82.css.map": "/static/css/main.a31a9c82.css.map",
+    "main.28295376.js.map": "/static/js/main.28295376.js.map"
   },
   "entrypoints": [
-    "static/css/main.68449c1b.css",
-    "static/js/main.c5ac00d7.js"
+    "static/css/main.a31a9c82.css",
+    "static/js/main.28295376.js"
   ]
 }

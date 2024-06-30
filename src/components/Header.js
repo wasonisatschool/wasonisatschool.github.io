@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+library.add(faEnvelope, faAngleDown);
 function Header() {
   const [isConferencesOpen, setIsConferencesOpen] = useState(false);
   const [isGovernanceOpen, setIsGovernanceOpen] = useState(false);
@@ -63,8 +69,7 @@ function Header() {
                       <span className="g-menu-item-content">
                         <span className="g-menu-item-title">Conferences</span>
                       </span>
-                      <span className="g-menu-parent-indicator" data-g-menuparent=""></span>
-                    </div>
+                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />                    </div>
                     {isConferencesOpen && (
                       <ul className="g-dropdown g-active g-fade g-dropdown-right">
                         <li className="g-dropdown-column">
@@ -72,17 +77,13 @@ function Header() {
                             <div className="g-block size-100">
                               <ul className="g-sublevel">
                                 <li className="g-level-1 g-go-back">
-                                  <span className="g-menu-item-container">
-                                    <span>Back</span>
-                                  </span>
-                                </li>
+                                <FontAwesomeIcon icon={faAngleDown} />                                </li>
                                 <li className="g-menu-item g-menu-item-type-post_type g-menu-item-458 g-parent g-menu-item-link-parent" title="Public Law and Cities 2024">
                                   <Link className="g-menu-item-container" to="/public-law-and-cities-2024">
                                     <span className="g-menu-item-content">
                                       <span className="g-menu-item-title">Public Law and Cities 2024</span>
                                     </span>
-                                    <span className="g-menu-parent-indicator" data-g-menuparent=""></span>
-                                  </Link>
+                                    <FontAwesomeIcon icon="fa-solid fa-angle-down" />                                    </Link>
                                   <ul className="g-dropdown g-active g-fade g-dropdown-right">
                                     <li className="g-dropdown-column">
                                       <div className="g-grid">
@@ -151,8 +152,7 @@ function Header() {
                       <span className="g-menu-item-content">
                         <span className="g-menu-item-title">Governance</span>
                       </span>
-                      <span className="g-menu-parent-indicator" data-g-menuparent=""></span>
-                    </div>
+                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />                      </div>
                     {isGovernanceOpen && (
                       <ul className="g-dropdown g-active g-fade g-dropdown-right">
                         <li className="g-dropdown-column">
@@ -188,8 +188,8 @@ function Header() {
                       <span className="g-menu-item-content">
                         <span className="g-menu-item-title">News & Events</span>
                       </span>
-                      <span className="g-menu-parent-indicator" data-g-menuparent=""></span>
-                    </div>
+                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />  
+                                          </div>
                     {isNewsOpen && (
                       <ul className="g-dropdown g-active g-fade g-dropdown-right">
                         <li className="g-dropdown-column">
@@ -247,10 +247,9 @@ function Header() {
             <div id="social-7138-particle" className="g-content g-particle">
               <div className="g-social">
                 <Link to="/contact" target="_self" title="Contact" aria-label="Contact">
-                  <span className="far fa-envelope"></span>
-                </Link>
+                <FontAwesomeIcon icon={faEnvelope} />                </Link>
                 <a href="https://twitter.com/ICONSTaiwan" target="_self" title="Twitter" aria-label="Twitter">
-                  <span className="fab fa-twitter-square"></span>
+                <FaSquareXTwitter />
                 </a>
               </div>
             </div>

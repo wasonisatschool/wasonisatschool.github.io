@@ -212,7 +212,7 @@ const MembershipPage = () => {
                                       <label><input type="checkbox" id="swpm-accept-terms" name="acceptTerms"
                                         className="validate[required]"
                                         value="1" checked={formData.acceptTerms} onChange={handleChange} /> I accept the  <a
-                                          href="https://www.icon-society.at/terms-and-conditions/"
+                                          href="/terms-and-conditions"
                                           target="_blank">Terms and Conditions</a></label>
                                     </div>
                                   </div>

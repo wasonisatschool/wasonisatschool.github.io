@@ -12,6 +12,7 @@ import ReportsPage from './components/ReportsPage';
 import ReportDetailPage from './components/ReportDetailPage';
 import NewsPage from './components/NewsPage'; 
 import PrivacyPolicyPage from './components/PrivacyPolicyPage'; // 新增PrivacyPolicyPage組件
+import TermsAndConditions from './components/TermsAndConditions'; // 新增PrivacyPolicyPage組件
 import NotFound from './NotFound';
 import './App.css';
 
@@ -30,6 +31,7 @@ const App = () => (
         <Route path="/reports/:id" element={<ReportDetailPage />} />
         <Route path="/news" element={<NewsPage />} /> 
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} /> {/* 新增PrivacyPolicyPage路由 */}
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} /> {/* 新增PrivacyPolicyPage路由 */}    
         <Route path="*" element={<NotFound />} /> {/* 修改這一行 */}
       </Routes>
       <Footer />

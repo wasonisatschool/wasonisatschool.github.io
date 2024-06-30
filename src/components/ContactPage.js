@@ -123,7 +123,7 @@ const ContactPage = () => {
                                         onChange={handleChange}
                                         required
                                       />
-                                      I accept the <strong><a href="https://www.icon-society.at/privacy-policy/" target="_blank" rel="noopener noreferrer">privacy policy</a></strong>.
+                                      I accept the <strong><a href="/privacy-policy/" target="_blank" rel="noopener noreferrer">privacy policy</a></strong>.
                                     </label>
                                   </div>
                                   <p><input type="submit" value="Submit" className="wpcf7-form-control wpcf7-submit" /></p>

@@ -1,4 +1,9 @@
 import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+library.add(faAngleUp);
 
 const Footer = () => (
   <footer id="g-footer">
@@ -24,7 +29,7 @@ const Footer = () => (
           <div id="totop-8670-particle" className="g-content g-particle">
             <div className="g-totop">
               <a href="#" id="g-totop" rel="nofollow" title="Back to top" aria-label="Back to top">
-                Back to top <i className="fa fa-chevron-up fa-fw"></i>
+                Back to top <FontAwesomeIcon icon={faAngleUp} />
               </a>
             </div>
           </div>

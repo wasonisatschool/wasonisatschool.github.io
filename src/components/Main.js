@@ -17,26 +17,12 @@ const NewsEvents = () => {
         // Mock data
         setNews([
           {
-            id: 1,
-            title: "ICON-S CEE Chapter Conference, Sibiu, 12.4.2024",
-            link: "/news/554"
-          },
-          {
-            id: 2,
-            title: "INVITATION: ICON.S Taiwan Chapter Stammtisch at Weihnachtsmarkt Spittelberg on 30 November 2023",
-            link: "/news/554"
-          },
-          {
-            id: 3,
-            title: "ICON.S Taiwan Chapter Social Event (Stammtisch) on 25 September 2023",
-            link: "/news/554"
-          },
-          {
-            id: 4,
-            title: "SAVE THE DATE – First Taiwan ICON.S Chapter Conference “Public Law and the Cities” – 10. /11. 9. 2024, Vienna",
-            link: "/news/554"
+              "id": 1,
+              "title": "Coming Soon",
+              "link": "/news/600",
+              "content": ""
           }
-        ]);
+      ]);
       });
   }, []);
 

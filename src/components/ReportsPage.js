@@ -15,8 +15,8 @@ const ReportsPage = () => {
         setReports([
           {
             id: 343,
-            title: 'Taiwan Chapter Activity Report 2024',
-            excerpt: 'The first board meetings took place in November 2024, a permanent working group on early career scholars was established...',
+            title: 'Comeing Soon',
+            excerpt: '',
             link: '/reports/343',
             categories: ['news', 'activity-reports']
           }

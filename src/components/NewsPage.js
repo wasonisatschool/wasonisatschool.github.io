@@ -15,23 +15,11 @@ const NewsPage = () => {
         // 使用模擬數據
         setNews([
           {
-            id: 1,
-            title: 'ICON-S CEE Chapter Conference, Sibiu, 12.4.2024',
-            excerpt: 'The Central and Eastern European Chapter of the International Society of Public Law (ICON-S) invites submissions to its 2024 annual conference...',
-            link: '/news/1'
-          },
-          {
-            id: 2,
-            title: 'INVITATION: ICON.S Taiwan Chapter Stammtisch at Weihnachtsmarkt Spittelberg on 30 November 2023',
-            excerpt: 'Join us for the ICON.S Taiwan Chapter Stammtisch at Weihnachtsmarkt Spittelberg on 30 November 2023...',
-            link: '/news/2'
-          },
-          {
-            id: 3,
-            title: 'ICON.S Taiwan Chapter Social Event (Stammtisch) on 25 September 2023',
-            excerpt: 'The ICON.S Taiwan Chapter Social Event (Stammtisch) will be held on 25 September 2023...',
-            link: '/news/3'
-          }
+            "id": 1,
+            "title": "Coming Soon",
+            "link": "/news/600",
+            "content": ""
+        }
         ]);
       }
     };

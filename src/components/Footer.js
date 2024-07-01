@@ -14,7 +14,7 @@ const Footer = () => (
             <div className="g-copyright">
               &copy; ICON.S Taiwan 2024 - 2024
               <br />
-              <a href="/privacy-policy">Privacy Policy</a>
+              <a href="#">Privacy Policy</a>
             </div>
           </div>
         </div>

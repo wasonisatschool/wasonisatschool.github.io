@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
 const ArticlePage = () => {
   const [article, setArticle] = useState({
     title: '',
@@ -9,17 +8,17 @@ const ArticlePage = () => {
   });
 
   useEffect(() => {
-    // 模擬API請求
+    // 模拟API请求
     const fetchArticle = async () => {
       try {
-        const response = await axios.get('https://api.example.com/articles/552'); // 替換為實際API端點
+        const response = await axios.get('https://api.example.com/articles/552'); // 替换为实际API端点
         setArticle({
           title: response.data.title,
           content: response.data.content,
           link: response.data.link
         });
       } catch (error) {
-        // 使用模擬資料
+        // 使用模拟数据
         setArticle({
           title: 'ICON-S CEE Chapter Conference, Sibiu, 12.4.2024',
           content: 'The Central and Eastern European Chapter of the International Society of Public Law (ICON-S) invites submissions to its 2024 annual conference taking place at the Faculty of Law, ‘Lucian Blaga’ University of Sibiu, Romania. The conference is on 12 April 2024.',

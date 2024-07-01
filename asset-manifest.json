@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a31a9c82.css",
-    "main.js": "/static/js/main.28295376.js",
+    "main.js": "/static/js/main.c48ec8c3.js",
     "index.html": "/index.html",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.62a5a273b7b76bff688c.ttf",
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.62a5a273b7b76bff688c.woff",
@@ -22,10 +22,10 @@
     "static/media/raleway-regular-webfont.woff": "/static/media/raleway-regular-webfont.62a5a273b7b76bff688c.woff",
     "static/media/raleway-regular-webfont.woff2": "/static/media/raleway-regular-webfont.62a5a273b7b76bff688c.woff2",
     "main.a31a9c82.css.map": "/static/css/main.a31a9c82.css.map",
-    "main.28295376.js.map": "/static/js/main.28295376.js.map"
+    "main.c48ec8c3.js.map": "/static/js/main.c48ec8c3.js.map"
   },
   "entrypoints": [
     "static/css/main.a31a9c82.css",
-    "static/js/main.28295376.js"
+    "static/js/main.c48ec8c3.js"
   ]
 }

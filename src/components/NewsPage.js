@@ -17,7 +17,7 @@ const NewsPage = () => {
           {
             "id": 1,
             "title": "Coming Soon",
-            "link": "/news/600",
+            "link": "#",
             "content": ""
         }
         ]);

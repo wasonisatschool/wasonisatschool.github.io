@@ -1,17 +1,36 @@
+/* Header.css */
 .g-dropdown {
-    display: none;
-  }
-  
-  .g-dropdown.g-active {
-    display: block;
-  }
-  
-  .g-dropdown .g-grid {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .g-dropdown .g-block {
-    margin-bottom: 10px;
-  }
-  
+  display: none;
+}
+
+.g-dropdown.g-active {
+  display: block;
+}
+
+.g-dropdown .g-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-dropdown .g-block {
+  margin-bottom: 10px;
+}
+
+.g-dropdown-right {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.g-dropdown-left {
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
+
+.g-dropdown-down {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}

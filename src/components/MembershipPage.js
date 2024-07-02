@@ -25,24 +25,24 @@ const MembershipPage = () => {
                               <h1 className="entry-title">Membership</h1>
                             </section>
                             <section className="entry-content">
-                              <p>The Taiwan Chapter of the International Society of Public Law encourages all interested persons to become a member of the ICON.S Taiwan Chapter:</p>
+                              <p>Membership is not limited by nationality. All members should have an interest in Public Law academia, including all the related fields.</p>
                               <ul>
-                                <li>Prospective members should have an interest in public law</li>
-                                <li>Some affiliation with Taiwan (not bound to nationality)</li>
-                                <li>A first degree in law
+                                <li>The Chapter will start with the following members: the first co-chairs, the Board members, and the list of founding members informed to ICON•S.</li>
+                                <li>Society members should become:
                                   <ul>
-                                    <li>Post-doc level or higher: membership in the ICON.S (international) is required to join the Taiwan Chapter;</li>
-                                    <li>Student members: membership in the ICON.S (international) is encouraged</li>
+                                    <li>Public law scholars and lecturers.</li>
+                                    <li>Ph.D., Ph.D. student, Masters, Master’s degree student who has an interest in public law.</li>
+                                    <li>Students of the final year of the undergraduate educational program from any institution operating in Taiwan or abroad, who express interest in public law and Taiwan.</li>
                                   </ul>
                                 </li>
-                                <li>The chapter membership is free.</li>
+                                <li>A candidate should submit an application to co-chairs. They join the Chapter following one of the procedures:
+                                  <ul>
+                                    <li>A candidate with the endorsement of both co-chairs and five members of the Board will be added as members of the Chapter. The endorsement will be given by email, and it needs to incorporate a letter from the applicant. The co-chairs will need to inform the Board members.</li>
+                                    <li>A candidate’s membership is approved by a majority of the Board members present at a Board meeting.</li>
+                                  </ul>
+                                </li>
+                                <li>Chapter membership is free. All applicants must show an interest in Public Law academia or in at least one of the related fields. Even though the applications will be merit-based, early-career scholars will be especially welcome.</li>
                               </ul>
-                              <p><strong>Procedure:</strong></p>
-                              <ul>
-                                <li>Please complete the form below, including a letter of interest, an academic CV and a list of publications (if available).</li>
-                                <li>The co-chair will decide in collaboration with members of the advisory council.</li>
-                              </ul>
-                             
                             </section>
                           </article>
                         </section>

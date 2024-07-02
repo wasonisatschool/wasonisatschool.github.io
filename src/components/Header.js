@@ -2,19 +2,17 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faBars, faTimes, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faEnvelope, faBars, faTimes,faAngleDown);
+library.add(faEnvelope, faBars, faTimes, faAngleDown);
 
-function Header() {
-  const [isConferencesOpen, setIsConferencesOpen] = useState(false);
+function Header({ menuDirection = 'right' }) {
   const [isGovernanceOpen, setIsGovernanceOpen] = useState(false);
   const [isNewsOpen, setIsNewsOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const toggleConferences = () => setIsConferencesOpen(!isConferencesOpen);
+
   const toggleGovernance = () => setIsGovernanceOpen(!isGovernanceOpen);
   const toggleNews = () => setIsNewsOpen(!isNewsOpen);
 
@@ -25,7 +23,7 @@ function Header() {
           <div className="g-block size-20 icon-s-logo">
             <div id="logo-1261-particle" className="g-content g-particle">
               <Link to="/" title="Home" aria-label="Home" rel="home" className="g-logo">
-                <svg version="1.1" viewBox="0 0 1989 1954" width="150" height="147" xmlns="http://www.w3.org/2000/svg">
+              <svg version="1.1" viewBox="0 0 1989 1954" width="150" height="147" xmlns="http://www.w3.org/2000/svg">
                   <rect width="1989" height="1954" fill="#fff" />
                   <path transform="translate(250,914)" d="m0 0h130l36 3 13 3 16 8 12 11 9 10 9 14 9 19 8 25 5 25 3 24 1 13v54l-3 30-4 23-6 22-8 21-10 18-11 14-8 8-10 7-10 5-10 3-16 2-35 2h-114l-38-2-17-3-13-5-12-8-13-13-10-14-8-16-7-18-7-26-4-25-2-21-1-35 1-27 3-28 5-26 6-21 6-16 10-18 9-12 13-13 11-7 12-5 17-3z" fill="#D70000"/>
                   <path transform="translate(132,535)" d="m0 0h362v138l-130 65-23 11-8 4 160 1 1 1v131h-362v-132l30-16 22-12 96-52 13-7-161-1z" fill="#D70000"/>
@@ -43,8 +41,8 @@ function Header() {
                   <path transform="translate(269,426)" d="m0 0h87l1 1v85h-88z" fill="#D70000"/>
                   <path transform="translate(772,133)" d="m0 0 2 1 14 86v2h-30l6-39z" fill="#fff"/>
                   <path transform="translate(1154,133)" d="m0 0h2l14 87v2h-30l6-39z" fill="#fff"/>
-                </svg>
-              </Link>
+                </svg>              
+                </Link>
             </div>
           </div>
 
@@ -59,29 +57,12 @@ function Header() {
                       </span>
                     </Link>
                   </li>
-
-                  <li
-                    className={`g-menu-item g-menu-item-type-custom g-menu-item-471 g-parent g-standard g-menu-item-link-parent ${isConferencesOpen ? 'open' : ''}`}
-                    title="Conferences"
-                    onClick={toggleConferences}
-                  >
-                    <div className="g-menu-item-container">
+                  <li className="g-menu-item g-menu-item-type-post_type g-menu-item-21 g-standard" title="Conferences">
+                    <Link className="g-menu-item-container" to="/conferences" onClick={() => setIsMenuOpen(false)}>
                       <span className="g-menu-item-content">
                         <span className="g-menu-item-title">Conferences</span>
                       </span>
-                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />                    
-                    </div>
-                    {isConferencesOpen && (
-                      <ul className="g-dropdown g-active g-fade g-dropdown-right">
-                        <li className="g-dropdown-column">
-                          <div className="g-grid">
-                            <div className="g-block size-100">
-
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    )}
+                    </Link>
                   </li>
 
                   <li
@@ -93,10 +74,10 @@ function Header() {
                       <span className="g-menu-item-content">
                         <span className="g-menu-item-title">Governance</span>
                       </span>
-                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />                      
+                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />
                     </div>
                     {isGovernanceOpen && (
-                      <ul className="g-dropdown g-active g-fade g-dropdown-right">
+                      <ul className={`g-dropdown g-active g-fade g-dropdown-${menuDirection}`}>
                         <li className="g-dropdown-column">
                           <div className="g-grid">
                             <div className="g-block size-100">
@@ -130,10 +111,10 @@ function Header() {
                       <span className="g-menu-item-content">
                         <span className="g-menu-item-title">News & Events</span>
                       </span>
-                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />  
+                      <FontAwesomeIcon icon="fa-solid fa-angle-down" />
                     </div>
                     {isNewsOpen && (
-                      <ul className="g-dropdown g-active g-fade g-dropdown-right">
+                      <ul className={`g-dropdown g-active g-fade g-dropdown-${menuDirection}`}>
                         <li className="g-dropdown-column">
                           <div className="g-grid">
                             <div className="g-block size-100">

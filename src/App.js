@@ -7,8 +7,9 @@ import CharterPage from './components/CharterPage';
 import ContactPage from './components/ContactPage';
 import MembershipPage from './components/MembershipPage';
 import ReportsPage from './components/ReportsPage';
-import ReportDetailPage from './components/ReportDetailPage';
 import NewsPage from './components/NewsPage'; 
+import Conferences from './components/Conferences';
+import AboutUsPage from './components/About';
 import NotFound from './NotFound';
 import './App.css';
 
@@ -22,9 +23,13 @@ const App = () => (
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/membership" element={<MembershipPage />} />
         <Route path="/reports" element={<ReportsPage />} />
-        <Route path="/reports/:id" element={<ReportDetailPage />} />
         <Route path="/news" element={<NewsPage />} /> 
+        <Route path="/about-us" element={<AboutUsPage />} /> 
+        <Route path="/conferences" element={<Conferences />} /> 
         <Route path="*" element={<NotFound />} /> 
+        <Route path="/menu-left" render={() => <Header menuDirection="left" />} />
+      <Route path="/menu-down" render={() => <Header menuDirection="down" />} />
+      <Route path="/menu-right" render={() => <Header menuDirection="right" />} />
       </Routes>
       <Footer />
     </div>

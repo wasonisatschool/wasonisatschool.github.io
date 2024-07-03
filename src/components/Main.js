@@ -68,7 +68,7 @@ const Main = () => (
                   <section className="entry-content">
                     <h1>ICON.S Taiwan</h1>
                     <p>The <strong>International Society of Public Law</strong> (<strong>ICON.S</strong>) is an international scholarly society associated with the International Journal of Constitutional Law (ICON) which holds regular annual conferences. You can find more information on ICON.S <a href="https://www.icon-society.org">here</a>.</p>
-                    <p><strong>ICON.S Taiwan</strong> one of the many regional chapters of ICON.S and was founded in 2024 by Chien-Chin Lin (co-chair) and Yi-Li Lee (co-chair).</p>
+                    <p><strong>ICON.S Taiwan</strong> one of the many regional chapters of ICON.S and was founded in 2024.</p>
                   </section>
                 </article>
               </section>

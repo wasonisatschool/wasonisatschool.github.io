@@ -1,5 +1,7 @@
 import React from 'react';
-import PublicLawBanner from '../assets/images/Public-Law-and-the-Cities-Banner-no-registration.jpg';
+import Large from '../assets/images/large.jpg';
+import Small from '../assets/images/small.jpg';
+
 const IntroSection = () => (
   <section id="g-intro" className="g-flushed">
     <div className="g-container">
@@ -10,11 +12,18 @@ const IntroSection = () => (
               <a href="/#" title="First Taiwan Chapter Conference">
                 <img
                   className="size-full"
-                  src={PublicLawBanner}
-                  alt="Public Law and Cities Banner"
+                  src={Large}
+                  alt="Large Banner"
                   width="1920"
                   height="500"
-                />                <img className="size-mobile" src="https://www.icon-society.at/media/2023/11/Public-Law-and-the-Cities-Banner-small.jpg" alt="Public Law and Cities Banner" width="860" height="540" />
+                /> 
+                 <img
+                  className="size-mobile"
+                  src={Small}
+                  alt="Small Banner"
+                  width="860"
+                  height="540"
+                /> 
               </a>
             </div>
           </div>

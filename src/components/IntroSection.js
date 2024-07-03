@@ -7,7 +7,7 @@ const IntroSection = () => (
         <div className="g-block size-100">
           <div id="custom-1795-particle" className="g-content g-particle">
             <div className="conference-cta">
-              <a href="/public-law-and-cities-2024" title="First Taiwan Chapter Conference">
+              <a href="/#" title="First Taiwan Chapter Conference">
                 <img
                   className="size-full"
                   src={PublicLawBanner}

@@ -6,7 +6,7 @@ const FeaturesSection = () => (
       <div className="g-grid">
         <div className="g-block size-100">
           <div id="custom-3621-particle" className="g-content g-particle">
-            <a className="button" data-umami-event="Conference button click" href="/about-us">
+            <a className="button" data-umami-event="Conference button click" href="#">
               <strong>About Us</strong>
             </a>
             {/* Uncomment below lines if needed */}
